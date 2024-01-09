@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.content {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+body {
+  background-color: #282b30;
+}
+
+h1 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-button {
+  border-radius: 6px;
+  width: 200px;
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  /* background-color: #0073e6; */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  /* justify-content: center; */
+}
+
+.button-interior {
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.icon img {
+  height: 20px;
+  width: 20px;  
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.separator {
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.text {
+  margin-left: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.divider {
+  width: 200px;
+  height: 2px;
+  background-color: #ff324a;
+  margin: 0 auto 20px;
+}
+
+.icon-button:hover,
+.icon-button:focus {
+  opacity: 50%;
+}
