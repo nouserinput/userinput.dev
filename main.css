@@ -71,6 +71,7 @@ h1 {
 .text {
   margin-left: 5px;
   font-family: 'Roboto Condensed', sans-serif;
+  color: white;
 }
 
 .divider {
@@ -78,6 +79,13 @@ h1 {
   height: 2px;
   background-color: #ff324a;
   margin: 0 auto 20px;
+}
+
+.sub-divider {
+  width: 200px;
+  height: 2px;
+  background-color: #ff324a;
+  margin: 20 auto 20px;
 }
 
 .icon-button:hover,
